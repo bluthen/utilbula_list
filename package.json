@@ -1,0 +1,57 @@
+{
+  "name": "mobx-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for MobX + React project with JSX, ES6 and decorator compilation",
+  "scripts": {
+    "start": "webpack-dev-server -d --hot --open",
+    "build": "webpack -p --mode=production --display-modules",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobxjs/mobx-react-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "mobx",
+    "starter-kit"
+  ],
+  "author": "Michel Weststrate <mweststrate@gmail.com> (http://github.com/mweststrate)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobxjs/mobx/issues"
+  },
+  "homepage": "http://mobxjs.github.com/mobx",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-pipeline-operator": "^7.5.0",
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "lodash": "^4.17.15",
+    "mobx": "^5.0.3",
+    "mobx-react": "^6.1.3",
+    "papaparse": "^5.1.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "recharts": "^1.7.1",
+    "style-loader": "^1.0.0",
+    "typeface-roboto": "^0.0.75",
+    "uuid": "^7.0.3"
+  }
+}
